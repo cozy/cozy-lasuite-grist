@@ -29,6 +29,11 @@
       "description": "Required by the cozy-bar to display storage usage",
       "type": "io.cozy.settings",
       "verbs": ["GET"]
+    },
+    "files": {
+      "description": "Required to materialize Grist documents as files in the Drive and keep them in sync",
+      "type": "io.cozy.files",
+      "verbs": ["GET", "POST", "PATCH", "DELETE"]
     }
   }
 }
