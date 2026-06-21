@@ -1,2 +1,5 @@
 {
+  "grist": {
+    "create_error": "Unable to create the Grist document."
+  }
 }
